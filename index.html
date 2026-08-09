@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html><html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>تواصل معنا</title>
-
-<style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>تواصل معنا</title><style>
 * {
     box-sizing: border-box;
 }
@@ -43,7 +38,10 @@ p {
 }
 
 .button {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
     width: 100%;
     padding: 17px;
     margin: 14px 0;
@@ -52,6 +50,12 @@ p {
     color: white;
     font-size: 19px;
     font-weight: bold;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
 }
 
 .call {
@@ -65,30 +69,14 @@ p {
 .tiktok {
     background: #111111;
 }
-</style>
-</head>
-
-<body>
-
-<div class="card">
-
-<h1>تواصل معنا</h1>
-
-<p>اختر طريقة التواصل المناسبة</p>
-
-<a class="button call" href="tel:+966536692991">
-📞 اتصال مباشر
-</a>
-
-<a class="button whatsapp" href="https://wa.me/966536692991">
-💬 واتساب
-</a>
-
-<a class="button tiktok" href="https://www.tiktok.com/@visionsa11">
-🎵 تيك توك
-</a>
-
-</div>
-
-</body>
+</style></head><body><div class="card"><h1>تواصل معنا</h1><p>اختر طريقة التواصل المناسبة</p><a class="button call" href="tel:+966536692991">
+<span class="icon">☎</span>
+<span>اتصال مباشر</span>
+</a><a class="button whatsapp" href="https://wa.me/966536692991">
+<span class="icon">◉</span>
+<span>واتساب</span>
+</a><a class="button tiktok" href="https://www.tiktok.com/@visionsa11">
+<span class="icon">♪</span>
+<span>تيك توك</span>
+</a></div></body>
 </html>
