@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -7,29 +8,34 @@
 <title>تواصل معنا</title>
 
 <style>
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.box {
-    width: 85%;
-    max-width: 400px;
+.card {
+    width: 90%;
+    max-width: 420px;
     background: white;
     padding: 35px 25px;
-    border-radius: 20px;
+    border-radius: 24px;
     text-align: center;
-    box-shadow: 0 5px 25px rgba(0,0,0,0.12);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
 }
 
 h1 {
+    margin: 0 0 10px;
     color: #222;
-    margin-bottom: 10px;
+    font-size: 28px;
 }
 
 p {
@@ -37,15 +43,20 @@ p {
     margin-bottom: 30px;
 }
 
-a {
+.button {
     display: block;
-    padding: 16px;
-    margin: 15px 0;
-    border-radius: 12px;
+    width: 100%;
+    padding: 17px;
+    margin: 14px 0;
+    border-radius: 14px;
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: bold;
+}
+
+.call {
+    background: #1769aa;
 }
 
 .whatsapp {
@@ -55,34 +66,27 @@ a {
 .tiktok {
     background: #111111;
 }
-
-.call {
-    background: #1769aa;
-}
 </style>
 </head>
 
 <body>
 
-<div class="box">
+<div class="card">
 
 <h1>تواصل معنا</h1>
 
-<p>اختر طريقة التواصل</p>
+<p>اختر طريقة التواصل المناسبة</p>
 
-<a class="whatsapp"
-href="https://wa.me/966536692991">
-🟢 واتساب
-</a>
-
-<a class="tiktok"
-href="https://www.tiktok.com/@visionsa11">
-⚫ تيك توك
-</a>
-
-<a class="call"
-href="tel:+966536692991">
+<a class="button call" href="tel:+966536692991">
 📞 اتصال مباشر
+</a>
+
+<a class="button whatsapp" href="https://wa.me/966536692991">
+💬 واتساب
+</a>
+
+<a class="button tiktok" href="https://www.tiktok.com/@visionsa11">
+🎵 تيك توك
 </a>
 
 </div>
