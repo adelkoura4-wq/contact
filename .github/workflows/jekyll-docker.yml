@@ -3,56 +3,61 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>تواصل معنا</title>
 
 <style>
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f3f3f3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .box {
-  background: white;
-  width: 85%;
-  max-width: 400px;
-  padding: 35px 25px;
-  border-radius: 20px;
-  text-align: center;
-  box-shadow: 0 5px 25px rgba(0,0,0,.12);
+    width: 85%;
+    max-width: 400px;
+    background: white;
+    padding: 35px 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.12);
 }
 
 h1 {
-  color: #222;
-  margin-bottom: 10px;
+    color: #222;
+    margin-bottom: 10px;
 }
 
 p {
-  color: #777;
-  margin-bottom: 30px;
+    color: #777;
+    margin-bottom: 30px;
 }
 
 a {
-  display: block;
-  padding: 16px;
-  margin: 15px 0;
-  border-radius: 12px;
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
+    display: block;
+    padding: 16px;
+    margin: 15px 0;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .whatsapp {
-  background: #25D366;
+    background: #25D366;
 }
 
 .tiktok {
-  background: #111;
+    background: #111111;
+}
+
+.call {
+    background: #1769aa;
 }
 </style>
 </head>
@@ -65,12 +70,19 @@ a {
 
 <p>اختر طريقة التواصل</p>
 
-<a class="whatsapp" href="https://wa.me/966536692991">
-واتساب
+<a class="whatsapp"
+href="https://wa.me/966536692991">
+🟢 واتساب
 </a>
 
-<a class="tiktok" href="https://www.tiktok.com/@visionsa11">
-تيك توك
+<a class="tiktok"
+href="https://www.tiktok.com/@visionsa11">
+⚫ تيك توك
+</a>
+
+<a class="call"
+href="tel:+966536692991">
+📞 اتصال مباشر
 </a>
 
 </div>
